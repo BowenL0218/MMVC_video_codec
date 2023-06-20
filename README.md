@@ -11,3 +11,7 @@ We consider both dense and sparse post-quantization residual blocks for entropy 
 ![Flow chart](https://github.com/BowenL0218/MMVC_video_codec/blob/main/Images/Flowchart.png)
 
 ## Performance
+### RD trade-off curve
+[MMVC achieves state-of-the-art performance on benchmark datasets](https://github.com/BowenL0218/MMVC_video_codec/blob/main/Images/Curve.png)
+
+
