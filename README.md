@@ -12,10 +12,12 @@ We consider both dense and sparse post-quantization residual blocks for entropy 
 
 ## Performance
 ### RD trade-off curve
-[MMVC achieves state-of-the-art performance on benchmark datasets](https://github.com/BowenL0218/MMVC_video_codec/blob/main/Images/Curve.png)
+MMVC achieves state-of-the-art performance on benchmark datasets
+![Curve](https://github.com/BowenL0218/MMVC_video_codec/blob/main/Images/Curve.png)
 
 ### RD trade-off curve
-[Details of the static background and dynamic objects are well preserved. Compared with HEVC, our result yields fewer block artifacts preserving finer details.](https://github.com/BowenL0218/MMVC_video_codec/blob/main/Images/Vis.png)
+Details of the static background and dynamic objects are well preserved. Compared with HEVC, our result yields fewer block artifacts preserving finer details.
+![Vis](https://github.com/BowenL0218/MMVC_video_codec/blob/main/Images/Vis.png)
 
 
 
