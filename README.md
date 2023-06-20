@@ -34,3 +34,27 @@ The spatial correlation between the pixel domain and latent space is straightfor
 
 ![Stit](https://github.com/BowenL0218/MMVC_video_codec/blob/main/Images/stitching.png)
 
+## Datasets
+In order to use the datasets used in the paper, please download the [UVG dataset](https://media.withyoutube.com/), the [Kinetics dataset](https://deepmind.com/research/open-source/kinetics), and the [UVG dataset](http://ultravideo.fi/).
+
+- The UVG and Kinetics datasets are used for training the prediction network. 
+- The Kinetics and UVG datasets are implemented for testing the performance.
+- Note that we use the learning-based image compression algorithm ([Liu et al](https://arxiv.org/pdf/1912.03734.pdf)) as the intra-compression for one single frame. 
+- The latent is used as the optimal latent for each frame.
+  
+## Arithmetic Coding
+To use the entropy coding method in this paper, download the general code library in Python with [arithmetic coding](https://github.com/ahmedfgad/ArithmeticEncodingPython). (The code is not provided in this repository due to the license conflict.)
+
+## Trian a new model
+To train a model with optical flow conditioned prediction,
+```sh
+$ python test.py
+```
+
+To test the result with the trained model
+```sh
+$ python Compression_ADMM.py
+```
+
+## Citation
+Please cite our paper if you find our paper useful for your research. [MMVC](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_MMVC_Learned_Multi-Mode_Video_Compression_With_Block-Based_Prediction_Mode_Selection_CVPR_2023_paper.pdf)
