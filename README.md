@@ -58,3 +58,11 @@ $ python Compression_ADMM.py
 
 ## Citation
 Please cite our paper if you find our paper useful for your research. [MMVC](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_MMVC_Learned_Multi-Mode_Video_Compression_With_Block-Based_Prediction_Mode_Selection_CVPR_2023_paper.pdf)
+
+@inproceedings{liu2023mmvc,
+  title={MMVC: Learned Multi-Mode Video Compression with Block-based Prediction Mode Selection and Density-Adaptive Entropy Coding},
+  author={Liu, Bowen and Chen, Yu and Machineni, Rakesh Chowdary and Liu, Shiyu and Kim, Hun-Seok},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={18487--18496},
+  year={2023}
+}
