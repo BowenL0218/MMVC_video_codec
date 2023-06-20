@@ -15,9 +15,14 @@ We consider both dense and sparse post-quantization residual blocks for entropy 
 MMVC achieves state-of-the-art performance on benchmark datasets
 ![Curve](https://github.com/BowenL0218/MMVC_video_codec/blob/main/Images/Curve.png)
 
-### RD trade-off curve
+### Reconstruction Visualization
 Details of the static background and dynamic objects are well preserved. Compared with HEVC, our result yields fewer block artifacts preserving finer details.
 ![Vis](https://github.com/BowenL0218/MMVC_video_codec/blob/main/Images/Vis.png)
+
+### Visualization of Multiple Predictions
+The decoded scenes are obtained from the predicted features without residual. By adopting multiple prediction modes that complement each other, our prediction is able to cover content variety in the original frame with a shorter bitstream.
+![Mode_sele](https://github.com/BowenL0218/MMVC_video_codec/blob/main/Images/Mode_sele.png)
+
 
 
 
