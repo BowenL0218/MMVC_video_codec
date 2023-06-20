@@ -23,6 +23,14 @@ Details of the static background and dynamic objects are well preserved. Compare
 The decoded scenes are obtained from the predicted features without residual. By adopting multiple prediction modes that complement each other, our prediction is able to cover content variety in the original frame with a shorter bitstream.
 ![Mode_sele](https://github.com/BowenL0218/MMVC_video_codec/blob/main/Images/Mode_sele.png)
 
+## Ablation Study
+### Effectiveness of Optical Flow conditioned Prediction
+The residual between the raw frame and the wrapped frame with optical flow information is minor when the motion is slow, indicating that the optical flow based prediction mode works well with some static frames.
 
+![OFC](https://github.com/BowenL0218/MMVC_video_codec/blob/main/Images/Opti_vis.png)
 
+### Mapping between pixel domain and latent domain
+The spatial correlation between the pixel domain and latent space is straightforward. The reconstructions of the divided latent are stitched into a single frame, and the difference between the reconstruction and raw frame is small, showing the effectiveness of block-wised video compression in latent space.
+
+![Stit](https://github.com/BowenL0218/MMVC_video_codec/blob/main/Images/stitching.png)
 
