@@ -45,8 +45,9 @@ In order to use the datasets used in the paper, please download the [UVG dataset
 ## Arithmetic Coding
 To use the entropy coding method in this paper, download the general code library in Python with [arithmetic coding](https://github.com/ahmedfgad/ArithmeticEncodingPython). (The code is not provided in this repository due to the license conflict.)
 
-## Trian a new model
-To train a model with optical flow conditioned prediction,
+## Train a new model
+Please download the optical flow model into the Optical_flow_master folder, and change the path in the corresponding file. The method that we used in this paper is RAFT algorithm. 
+To train a model with optical flow conditioned prediction, 
 ```sh
 $ python train_new_model.py
 ```
