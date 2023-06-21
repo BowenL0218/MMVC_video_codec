@@ -47,6 +47,7 @@ To use the entropy coding method in this paper, download the general code librar
 
 ## Train a new model
 Please download the optical flow model into the Optical_flow_master folder, and change the path in the corresponding file. The method that we used in this paper is the [RAFT](https://github.com/princeton-vl/RAFT) algorithm.
+
 To train a model with optical flow conditioned prediction, 
 ```sh
 $ python train_new_model.py
