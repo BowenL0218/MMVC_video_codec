@@ -53,7 +53,7 @@ $ python train_new_model.py
 
 To test the result with the trained model
 ```sh
-$ python Compression_ADMM.py
+$ python Testing_new.py
 ```
 
 ## Citation
