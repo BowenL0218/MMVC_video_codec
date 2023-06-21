@@ -48,7 +48,7 @@ To use the entropy coding method in this paper, download the general code librar
 ## Trian a new model
 To train a model with optical flow conditioned prediction,
 ```sh
-$ python test.py
+$ python train_new_model.py
 ```
 
 To test the result with the trained model
